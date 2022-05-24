@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Barbearia Lance</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="caixa">
+            <h1><img class="logo"
+                    src="./src/img/kisspng-hairstyle-beard-barber-shaving-head-massage-5b3535f6baa906.1031214715302138787646.png">
+            </h1>
+
+            <nav>
+                <ul class="navegacao">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form class="formulario">
+            <label for="nome" >Nome</label>
+            <input type="text" name="" id="nome" class="input-padrao" required>
+
+            <label for="email" >E-mail</label>
+            <input type="email" name="" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone" >Tefelone</label>
+            <input type="tel" name="" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+            <label for="mensagem" >Mensagem</label>
+            <textarea cols="55" rows="15" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" id="radio-email">Email</label>
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
+                <label for="radio-whatsapp"> <input type="radio" name="contato" id="radio-whatsapp" checked>WhatsApp</label>
+
+            </fieldset>
+
+        <fieldset>
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select>
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select>
+
+            <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+            <input type="submit" value="Enviar Formulário" class="enviar">
+        </fieldset>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Dia</th>
+                    <th>Horário</th>
+                <tr>
+            </thead>
+            <tbody>
+                    <td>Terça</td>
+                    <td>9h ás 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>9h ás 20h</td>
+                </tr>
+                <tr>
+                    <td>Quinta</td>
+                    <td>9h ás 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>9h ás 20h</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>9h ás 20h</td>
+                </tr>
+        </tbody>
+        </table>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <img class="logo-rodape"
+            src="./src/img/kisspng-hairstyle-beard-barber-shaving-head-massage-5b3535f6baa906.1031214715302138787646.png"
+            alt="">
+        <p class="copy">&copy; Copyrigth Barbearia Lance - 2015</p>
+    </footer>
+
+</body>
+
+</html>
